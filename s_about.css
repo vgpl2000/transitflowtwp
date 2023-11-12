@@ -1,0 +1,272 @@
+body {
+    font-family: 'Krub', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top-nav {
+    height: 20vh;
+    width: 100%;
+    margin: 0 0;
+    background-color: #091242;
+}
+
+#logo-title1,
+#logo-title2 {
+    height: 80%;
+    width: 80%;
+}
+
+.nav-text1,
+.nav-text2 {
+    color: #FFFFFF;
+    font-size: 0.8vw;
+}
+
+.nav-img {
+    height: 40%;
+    width: 40%;
+}
+
+.nav-text {
+    margin: 0;
+    padding: 0;
+}
+
+#homeImage {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    background: linear-gradient(90deg, rgba(9, 18, 67, 0.2), rgba(9, 18, 67, 0.1));
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding-left: 16%;
+    padding-right: 18%;
+    justify-content: space-between;
+    /* Add this to create space between left and right items */
+}
+
+.left-items,
+.right-items {
+    display: flex;
+    align-items: center;
+}
+
+.right-items {
+    justify-content: flex-end;
+}
+
+/* Additional styling for your elements as needed */
+
+.right-items>* {
+    margin-left: 15%;
+    text-decoration: none;
+}
+
+.right-items img {
+    height: 2.1vh;
+}
+
+.left-items a {
+    text-decoration: none;
+}
+.left-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#hometext {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#abouttext {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#servicetext {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.line {
+    width: 1px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+#homebannerimage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('assets1/homeimg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#button-demo {
+    height: 8vh;
+    background-color: #FFFFFF;
+    padding: 0 3vw;
+    font-size: 1.5vh;
+    border: 0;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#button-demo a {
+    text-decoration: none;
+    color: #23212A;
+    text-align: center;
+    font-family: Krub;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.023%;
+    /* 21.604px */
+}
+
+
+#hometext,
+#abouttext,
+#servicetext {
+    font-size: 1.5vh;
+}
+
+
+/* PENDING */
+.nav-active {
+    border-bottom: 1px solid #FFFFFF;
+    border: 0 0 1px 0;
+}
+.nav-border{
+    width: auto;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border-color 0.2s ease-in-out;
+}
+  
+  .nav-border:hover {
+    border-bottom: 1px solid transparent;
+    border-bottom-color: #FFFFFF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #top-nav {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        min-height: 20vh;
+        padding: 5% 0;
+    }
+
+    #nav-1,
+    #nav-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    #logo-title1 {
+        width: 100%;
+        padding: 5% 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #logo-title2 {
+        width: 130%;
+        padding: 5% 0;
+        max-width: 130%;
+        height: auto;
+    }
+
+    .navigation {
+        background: linear-gradient(90deg, rgba(9, 18, 67, 0.2), rgba(9, 18, 67, 0.1));
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        top: 20vh;
+        margin: 0 0;
+        padding: 8px 15px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .left-items,
+    .right-items {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+
+    .right-items img {
+        display: none;
+    }
+
+    .left-items a {
+        text-decoration: none;
+    }
+
+    #hometext,
+    #abouttext,
+    #servicetext {
+        font-size: 0.8rem;
+        color: #ffffff;
+        padding: 0 1vh;
+    }
+
+
+
+    #homebannerimage {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    #button-demo {
+        display: none;
+    }
+}
