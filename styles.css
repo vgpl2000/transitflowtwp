@@ -1046,7 +1046,7 @@ body {
 
 /* SECTION 9 */
 #sec9-content {
-    margin: 0 18vw;
+    margin: 0 18vw 4vh 18vw;
 }
 
 #sec9-lefttxt1 {
@@ -1980,22 +1980,29 @@ body {
     /* SECTION 9 */
 
     #sec9-content {
-        margin: 0 auto;
+        width: 100%;
+        margin: 0 auto 4vh auto;
     }
 
     .sec9-conrow {
+        flex-shrink: 0;
+        width: 100%;
+        margin: 0;
         display: grid;
         border: 0;
     }
 
     .sec9-col1 {
+        width: 100%;
+        margin: 0;
         display: grid;
         border: 0;
     }
 
     .sec9-col2 {
+        width: 100%;
+        margin: 0;
         border: 0;
-        margin: 0 12vw;
     }
 
 
@@ -2122,6 +2129,7 @@ body {
         justify-content: space-evenly;
         align-items: center;
         padding: 0 20vw;
+        border: 0;
     }
 
     .sec10-navtxts {
@@ -2164,6 +2172,7 @@ body {
     #sec10-maincon {
         background-color: #091242;
         display: block;
+        border: 0;
     }
 
     #sec10-footer {
