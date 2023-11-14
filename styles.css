@@ -1817,6 +1817,12 @@ body {
         line-height: normal;
         margin-bottom: 2%;
     }
+    .name1{
+        margin-left: 0.2vw;
+    }
+    .designation{
+        margin-left: 0.2vw;
+    }
 
     #sec5-ardiv {
         display: flex;
@@ -1986,11 +1992,14 @@ body {
     .sec9-conrow {
         display: grid;
         border: 0;
+        margin: 0;
+        width: 100%;
     }
 
     .sec9-col1 {
         display: grid;
         border: 0;
+        margin: 0;
     }
 
     .sec9-col2 {
