@@ -2,6 +2,7 @@ body {
     font-family: 'Krub', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #top-nav {
@@ -228,6 +229,10 @@ body {
     flex-shrink: 0;
     background: url(assets/btnback.svg);
 }
+#btnexplore:hover{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
+}
 
 
 /*SECTION 2*/
@@ -235,6 +240,7 @@ body {
 #section2 {
     margin-left: 13%;
     margin-right: 13%;
+    padding-top: 10vh;
 }
 
 #lefttxt1 {
@@ -373,13 +379,13 @@ body {
 #sec3-absDiv {
     position: absolute;
     top: 10rem;
-    left: 20rem;
+    left: 19rem;
 }
 
 #sec3-absImg {
     border: 17px solid #FFFFFF;
-    width: 90%;
-    height: 90%
+    width: 70%;
+    height: 70%
 }
 
 .sec3-colflex {
@@ -453,12 +459,16 @@ body {
 }
 
 #sec4-grid {
-    margin: 5% 7%;
+    margin: 5vh 3vw 5vh 3vw;
 }
 
 .sec4-gridimg {
     position: relative;
     display: inline-block;
+}
+.sec4-gridimg:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
 }
 
 .sec4-imgs {
@@ -506,6 +516,10 @@ body {
     width: 100%;
     height: 100%;
 }
+#sec4-btn:hover{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
+}
 
 #sec4-btn {
     width: 194px;
@@ -524,7 +538,7 @@ body {
 
 #sec4-background {
     position: absolute;
-    bottom: -10vh;
+    bottom: -15vh;
     background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
     width: 100%;
     height: 50vh;
@@ -541,10 +555,10 @@ body {
 #sec5-content {
     width: 60vw;
     height: 70vh;
-    margin: 7% auto;
+    margin: 7vh auto;
     display: flex;
     flex-direction: column;
-
+    padding-top: 10vh;
     align-items: flex-start;
 }
 
@@ -561,17 +575,15 @@ body {
 .sec5-text {
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
-
     align-items: center;
     width: 100%;
 }
 
-.sec5-headtext {
+#sec5-headtext {
     color: #1C1F35;
     font-family: Rubik;
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -678,8 +690,9 @@ body {
 .symbol img {
     width: 50px;
     height: 50px;
-    margin-right: -25vh;
+    margin-right: -19vw;
 }
+
 
 .profile-review {
     display: flex;
@@ -720,7 +733,8 @@ body {
     width: 100%;
     margin: 0;
 }
-#sec6-test{
+
+#sec6-test {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -737,7 +751,7 @@ body {
     background-color: #F4F4F4;
     width: 100%;
     height: 100vh;
-    padding: 10% 5% 10% 8%;
+    padding: 10% 12% 10% 8%;
 }
 
 #sec6-features1 {
@@ -751,6 +765,7 @@ body {
     max-width: 200px;
     margin: 5% auto;
 }
+
 
 .sec6-fimg img {
     width: 6vw;
@@ -792,11 +807,11 @@ body {
 #sec6-absimg {
     position: absolute;
     top: 17vh;
-    left: 10vw;
+    left: 15vw;
 }
 
 #sec6-img {
-    width: 45vw;
+    width: 40vw;
     height: 55vh;
 }
 
@@ -909,7 +924,18 @@ body {
     height: auto;
     width: auto;
 }
-
+.sec7-profile:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
+}
+@keyframes glow {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /* SECTION 8 */
 
 #section-8 {
@@ -1010,6 +1036,7 @@ body {
     line-height: normal;
     width: 94.5%;
     box-sizing: border-box;
+    resize: none;
 
 }
 
@@ -1023,6 +1050,10 @@ body {
     width: fit-content;
     margin: 0 2vw 2vw 2vw;
     background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+#sec8-btn:hover{
+    box-shadow: 0 0 0.5rem rgba(183, 182, 182, 0.8);
+    transition: 0.2s ease-in-out;
 }
 
 #sec8-btn a {
@@ -1225,6 +1256,11 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#sec9-btn:hover{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
 }
 
 #sec9-btn a {
@@ -1394,6 +1430,10 @@ body {
     line-height: 135.023%;
     /* 21.604px */
 }
+#sec10-btndiv:hover{
+    box-shadow: 0 0 0.5rem rgba(183, 182, 182, 0.8);
+    transition: 0.2s ease-in-out;
+}
 
 #sec10-footer {
     background-color: #091242;
@@ -1404,7 +1444,7 @@ body {
 
 
 #sec10-fcontent {
-    background-color: #091242; 
+    background-color: #091242;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1437,7 +1477,8 @@ body {
     align-items: center;
 
 }
-#sec10-fright span{
+
+#sec10-fright span {
     margin: 0 1vw;
 }
 
@@ -1575,6 +1616,7 @@ body {
     #sec2-resp {
         display: block;
         width: 100%;
+        margin-bottom: 5vh;
     }
 
     .row.column-gap-4 {
@@ -1588,7 +1630,7 @@ body {
     }
 
     #whtemp {
-        margin-top: 35%;
+        margin-top: 16%;
     }
 
     /* SECTION 2 */
@@ -1678,13 +1720,13 @@ body {
 
     #sec3-col1 {
         border-style: solid;
-        border-width: 1px 1px 1px 0;
+        border-width: 1px 0 1px 0;
         border-color: #D4D4D4;
     }
 
     #sec3-col2 {
         border-style: solid;
-        border-width: 1px 0 1px 1px;
+        border-width: 1px 0 1px 0;
         border-color: #D4D4D4;
     }
 
@@ -1729,11 +1771,11 @@ body {
 
     #section-4 {
         position: relative;
-        margin-top: 50rem;
+        margin-top: 55rem;
     }
 
     #sec4-grid1 {
-        margin: 5vh 20vw 15vh 20vw;
+        margin: 0 25vw 15vh 25vw;
         flex-direction: column;
     }
 
@@ -1807,6 +1849,9 @@ body {
         margin-top: 10vh;
         height: 150vh;
     }
+    #sec5-content{
+        padding: 0;
+    }
 
     #lefttxt1 {
         color: #1C1F35;
@@ -1815,12 +1860,14 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 2%;
+        margin: 2vh auto;
     }
-    .name1{
+
+    .name1 {
         margin-left: 0.2vw;
     }
-    .designation{
+
+    .designation {
         margin-left: 0.2vw;
     }
 
@@ -2254,19 +2301,19 @@ body {
         /* 21.604px */
     }
 
-    
+
     #sec10-fcontent {
-        background-color: #091242; 
+        background-color: #091242;
         display: block;
         text-align: center;
         padding: 0 10vw;
     }
-    
+
     #sec10-fleft,
     #sec10-fright {
         display: inline-block;
     }
-    
+
     #sec10-fleft {
         color: #FFF;
         font-family: Krub;
@@ -2275,7 +2322,7 @@ body {
         font-weight: 500;
         line-height: 250%;
     }
-    
+
     #sec10-fright {
         color: #8388A7;
         font-family: Krub;
@@ -2287,12 +2334,13 @@ body {
         justify-content: space-between;
         align-items: center;
         text-align: center;
-    
+
     }
-    #sec10-fright span{
+
+    #sec10-fright span {
         margin: 0 auto;
     }
-    
+
 
 
 
