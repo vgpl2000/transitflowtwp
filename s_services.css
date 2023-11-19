@@ -432,12 +432,12 @@ body {
 #section-4 {
     text-align: center;
     margin-top: 15vh;
-    margin-bottom: 10%;
+    
 }
 
 #sec4-content {
     width: 60vw;
-    margin: 7% auto;
+    margin: 7% auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -618,9 +618,68 @@ body {
 }
 
 
+
+.sec5-colflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#sec5-count {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.sec5Counter {
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.sec5pattern {
+    gap: 10px;
+    flex-shrink: 0;
+    width: 18%;
+    height: 18%;
+    margin-bottom: 3%;
+    margin-right: -5%;
+    padding: auto;
+}
+
+.sec5Counttxt {
+    color: #1C1F35;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sec5-col1 {
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-color: #D4D4D4;
+}
+
+.sec5-col2 {
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #D4D4D4;
+}
+.sec5-col3 {
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #D4D4D4;
+}
+
 /* SECTION 10 */
 #section-10 {
-    margin: 10vh 0;
+    margin: 0 0 10vh 0;
     width: 100%;
     margin: 0;
 }
@@ -1100,6 +1159,65 @@ body {
 
     .designation {
         margin-left: 0.2vw;
+    }
+
+
+
+
+
+    .sec5-colflex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    #sec5-col1 {
+        border-style: solid;
+        border-width: 1px 0 1px 0;
+        border-color: #D4D4D4;
+    }
+
+    #sec5-col2 {
+        border-style: solid;
+        border-width: 1px 0 1px 0;
+        border-color: #D4D4D4;
+    }
+
+    #sec5-count {
+        width: 90%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    .sec5Counter {
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    .sec5pattern {
+        gap: 10px;
+        flex-shrink: 0;
+        width: 18%;
+        height: 18%;
+        margin-bottom: 3%;
+        margin-right: -5%;
+        padding: auto;
+    }
+
+    .sec5Counttxt {
+        color: #1C1F35;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
 
