@@ -369,27 +369,28 @@ body {
 
 #sec3-col1 {
     position: relative;
+    width: 100%;
+}
+#sec3-col2{
+    width: 100%;
 }
 
 #sec3-img1 {
-    position: relative;
     width: 90%;
 }
 
 #sec3-img2 {
     border: 20px solid white;
+    width: 87%;
 }
 
 #sec3-img2div {
+    width: 50%;
     position: absolute;
-    right: 16vw;
-    top: 16vh;
-    width: 20%;
-    height: 20%;
-
+    top: 10rem;
+    right: 0;
 }
 
-#sec3-col2 {}
 
 .sec3-cons {
     padding-bottom: 10vh;
@@ -402,8 +403,6 @@ body {
     height: 5vh;
 
 }
-
-.sec3-txts {}
 
 .sec3-head {
     color: #1C1F35;

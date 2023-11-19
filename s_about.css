@@ -316,11 +316,6 @@ body {
     padding: 2vh 2vw;
 }
 .sec1-btn:hover{
-    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.8);
-    transition: 0.2s ease-in-out;
-}
-
-#sec1-btn1 {
     background: #FFB82B;
     color: #FFF;
     font-family: Krub;
@@ -328,10 +323,9 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 151.523%;
-    /* 28.789px */
 }
 
-#sec1-btn2 {
+.sec1-btn {
     background: #F4F4F4;
     color: #1C1F35;
     font-family: Krub;
@@ -339,18 +333,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 151.523%;
-    /* 28.789px */
-}
-
-#sec1-btn3 {
-    background: #F4F4F4;
-    color: #1C1F35;
-    font-family: Krub;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 151.523%;
-    /* 28.789px */
 }
 
 #sec1-btn4 {
