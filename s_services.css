@@ -598,7 +598,7 @@ body {
     font-style: italic;
     word-wrap: break-word;
     font-weight: 500;
-    text-align: left;
+    text-align: justify;
 }
 
 .sec4-revtxt1 {
@@ -608,7 +608,7 @@ body {
     font-style: italic;
     word-wrap: break-word;
     font-weight: 500;
-    text-align: left;
+    text-align: justify;
 }
 
 .sec4-revimg {
@@ -628,7 +628,7 @@ body {
 
 #sec5-count {
     width: 90%;
-    margin: 5% auto;
+    margin: 5%  auto 0 auto;
 }
 
 .sec5Counter {

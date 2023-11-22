@@ -747,7 +747,7 @@ body {
     font-style: italic;
     word-wrap: break-word;
     font-weight: 500;
-    text-align: left;
+    text-align: justify;
 }
 
 .sec4-revtxt1 {
@@ -757,7 +757,7 @@ body {
     font-style: italic;
     word-wrap: break-word;
     font-weight: 500;
-    text-align: left;
+    text-align: justify;
 }
 
 .sec4-revimg {
@@ -1223,20 +1223,20 @@ body {
 #section-7 {
     width: 100%;
     margin: 4vw 0;
-
 }
 
 #sec7-imgs {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .sec7-img {
-    border: 0;
-
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border-bottom: 1px solid #4E5683;
+    border-top: 1px solid #4E5683;
 }
+
 
 
 /* SECTION 10 */
